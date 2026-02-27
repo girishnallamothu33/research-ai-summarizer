@@ -1,0 +1,9 @@
+🔬 Research Paper Summarization for Multi-Disciplinary Knowledge Discovery
+
+This project is an AI-powered full-stack application designed to transform complex research papers into clear, structured, and meaningful insights. It helps users quickly understand lengthy academic documents by generating concise summaries, extracting keywords, identifying key insights, and visualizing topic clusters. The system bridges natural language processing and modern web development to create an interactive research analysis platform.
+
+The backend is built using FastAPI, which handles API requests, OpenAI integration, database operations, and NLP processing. It leverages large language models to generate intelligent summaries and uses sentence embeddings with clustering algorithms to group semantically similar sentences. The frontend is developed using Streamlit, providing an intuitive and responsive interface for uploading text, generating summaries, and visualizing topic clusters through interactive graphs.
+
+One of the key features of this project is topic clustering visualization. Each sentence from the research article is converted into embeddings and grouped using machine learning techniques such as KMeans. These clusters are then visualized in a 2D plot, allowing users to visually understand how different themes are distributed within the document. This enhances interpretability and supports multi-disciplinary knowledge discovery.
+
+This application demonstrates the integration of AI models, RESTful API architecture, database management, and frontend visualization into a cohesive system. It showcases practical implementation of NLP techniques in real-world research analysis scenarios and serves as a strong foundation for further expansion into automated literature review systems or academic intelligence platforms.
