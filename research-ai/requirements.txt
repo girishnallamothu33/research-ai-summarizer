@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+PyPDF2
+spacy
+sentence-transformers
+scikit-learn
+openai
+
+# Frontend
+streamlit
+plotly
+requests
+pandas
